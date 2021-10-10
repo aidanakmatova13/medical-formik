@@ -1,0 +1,42 @@
+li {
+    list-style: none;
+}
+
+.aside-item {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    display: block;
+    padding: 8px 20px;
+    border-left: 4px solid transparent;
+
+}
+
+.active {
+    background-color: rgb(32, 6, 66);
+    border-left: 4px solid magenta;
+}
+
+
+.aside-logo {
+    width: 100%;
+    height: 80px;
+    object-fit: contain;
+
+}
+.bx{
+    margin-right: 10px;
+
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.aside {
+    width: 20%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
